@@ -8,4 +8,11 @@ return {
     { -- Keybind to comment
         'numToStr/Comment.nvim',
     },
+    { -- Automatically creates other half of tag
+        "windwp/nvim-ts-autotag",
+        dependencies = { "nvim-treesitter/nvim-treesitter" },
+        config = function()
+            require("nvim-ts-autotag").setup()
+        end
+    }
 }

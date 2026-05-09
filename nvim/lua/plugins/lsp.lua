@@ -1,3 +1,4 @@
+-- I have no idea whats going on here btw, found this on youtube
 return {
     'neovim/nvim-lspconfig',
     dependencies = {
