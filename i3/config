@@ -73,6 +73,10 @@ bindsym $mod+Shift+q kill
 # open youtube playlists in workspace 4
 bindsym $mod+p exec --no-startup-id bash -c 'i3-msg workspace 4 && firefox --new-window https://www.youtube.com/feed/playlists'
 
+# open obsidian on startup in workspace 10
+assign [class="obsidian"] $ws10
+exec --no-startup-id obsidian
+
 # start dmenu (a program launcher)
 # bindsym $mod+d exec --no-startup-id dmenu_run
 

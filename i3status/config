@@ -1,0 +1,31 @@
+# used AI because I can gaf about learning i3 config (i love i3 tho)
+
+wireless _first_ {
+    format_up = "  %essid %quality"
+    format_down = "  down"
+}
+
+ethernet _first_ {
+    format_up = "  %ip"
+    format_down = ""
+}
+
+
+tztime local {
+    format = "  %a %b %d  %H:%M  "
+}
+
+battery all {
+    format = "  %status %percentage  "
+    format_down = "no battery"
+    status_chr = "CHR"
+    status_bat = "BAT"
+    status_unk = "UNK"
+    status_full = "FULL"
+    low_threshold = 20
+}
+
+order += "tztime local"
+order += "battery all"
+order += "wireless _first_"
+order += "ethernet _first_"
