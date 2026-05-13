@@ -12,16 +12,16 @@ ethernet _first_ {
 
 
 tztime local {
-    format = "  %a %b %d  %H:%M  "
+    format = "  %I:%M %p - %a %b %d  "
 }
 
 battery all {
     format = "  %status %percentage  "
     format_down = "no battery"
-    status_chr = "CHR"
-    status_bat = "BAT"
-    status_unk = "UNK"
-    status_full = "FULL"
+    status_chr = "C"
+    status_bat = "B"
+    status_unk = "?"
+    status_full = "F"
     low_threshold = 20
 }
 

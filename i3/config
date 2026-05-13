@@ -54,6 +54,9 @@ tiling_drag modifier titlebar
 # start a terminal
 bindsym $mod+Return exec i3-sensible-terminal
 
+# go to notes workspace (workspace 9)
+bindsym $mod+n workspace number $ws9
+
 # start a firefox pane
 bindsym $mod+f exec firefox
 
@@ -69,6 +72,9 @@ bindsym $mod+d exec discord
 
 # kill focused window
 bindsym $mod+Shift+q kill
+
+# back and forth
+bindsym $mod+Tab workspace back_and_forth
 
 # open youtube playlists in workspace 4
 bindsym $mod+p exec --no-startup-id bash -c 'i3-msg workspace 4 && firefox --new-window https://www.youtube.com/feed/playlists'
