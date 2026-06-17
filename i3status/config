@@ -1,5 +1,4 @@
 # used AI because I can gaf about learning i3 config (i love i3 tho)
-
 wireless _first_ {
     format_up = "  %essid %quality"
     format_down = "  down"

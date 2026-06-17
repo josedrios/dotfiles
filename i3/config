@@ -63,6 +63,12 @@ bindsym $mod+f exec firefox
 # start a obsidian pane
 bindsym $mod+o exec obsidian
 
+# start a obs pane
+bindsym $mod+v exec obs
+
+# open file manager
+bindsym $mod+period exec nautilus
+
 # start a sioyek pane
 # I chose b for book
 bindsym $mod+b exec sioyek
@@ -77,14 +83,11 @@ bindsym $mod+Shift+q kill
 bindsym $mod+Tab workspace back_and_forth
 
 # open youtube playlists in workspace 4
-bindsym $mod+p exec --no-startup-id bash -c 'i3-msg workspace 4 && firefox --new-window https://www.youtube.com/feed/playlists'
+bindsym $mod+p exec --no-startup-id bash -c 'i3-msg workspace 3 && firefox --new-window https://www.youtube.com/feed/playlists'
 
 # open obsidian on startup in workspace 10
 assign [class="obsidian"] $ws10
 exec --no-startup-id obsidian
-
-# start dmenu (a program launcher)
-# bindsym $mod+d exec --no-startup-id dmenu_run
 
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
