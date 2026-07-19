@@ -15,7 +15,8 @@ return {
                 "javascript",
                 "tsx",
                 "html",
-                "python"
+                "python",
+                "json"
             },
         })
     end

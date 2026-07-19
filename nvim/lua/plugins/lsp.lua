@@ -104,7 +104,8 @@ return {
                 "ts_ls",
                 "eslint",
                 "pyright",
-                "cssls"
+                "cssls",
+                "jsonls"
             },
             handlers = {
                 function(server_name)
