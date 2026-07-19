@@ -218,5 +218,5 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # screenshot related
-bindsym Shift+Print exec maim ~/Pictures/Screenshots/screenshot_$(date +%Y%m%d_%H%M%S).png
-bindsym Print exec maim -s ~/Pictures/Screenshots/screenshot_$(date +%Y%m%d_%H%M%S).png
+bindsym Shift+Insert exec maim ~/Pictures/Screenshots/screenshot_$(date +%Y%m%d_%H%M%S).png
+bindsym Insert exec maim -s ~/Pictures/Screenshots/screenshot_$(date +%Y%m%d_%H%M%S).png
