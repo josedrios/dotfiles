@@ -74,7 +74,7 @@ bindsym $mod+b exec sioyek
 
 # start a freecad pane
 # I chose m for modeling
-bindsym $mod+m exec open ~/Applications/FreeCAD_1.1.3-Linux-x86_64-py311.AppImage
+bindsym $mod+m exec ~/Applications/FreeCAD_1.1.3-Linux-x86_64-py311.AppImage
 
 #start a discord pane
 bindsym $mod+d exec discord
