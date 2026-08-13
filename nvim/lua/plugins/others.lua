@@ -19,9 +19,14 @@ return {
         "folke/todo-comments.nvim",
         dependencies = { "nvim-lua/plenary.nvim" },
         opts = {
-            -- your configuration comes here
-            -- or leave it empty to use the default settings
-            -- refer to the configuration section below
+            keywords = {
+                TODO = { color = "#98C379" },
+                WARN = { color = "#FFD700" },
+                FIX = { color = "#E06C75" },
+                HACK = { color = "#C678DD" },
+                PERF = { color = "#61AFEF" },
+                NOTE = { color = "#56B6C2" },
+            }
         }
     }
 }
