@@ -26,7 +26,8 @@ return {
                 HACK = { color = "#C678DD" },
                 PERF = { color = "#61AFEF" },
                 NOTE = { color = "#56B6C2" },
-            }
+            },
         }
+
     }
 }
