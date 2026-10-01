@@ -8,3 +8,5 @@ vim.opt.expandtab = true
 vim.opt.winborder = "rounded"
 vim.opt.clipboard = "unnamedplus"
 vim.opt.termguicolors = true
+-- Keeps default file/position info on the left/middle, adds date to far right
+vim.opt.statusline = "%f %h%m%r%=%-14.(%l,%c%V%) %P | %{luaeval(\"os.date('%m-%d-%y %I:%M %p')\")}"

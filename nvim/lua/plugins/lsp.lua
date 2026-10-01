@@ -105,7 +105,7 @@ return {
                 "eslint",
                 "pyright",
                 "cssls",
-                "jsonls"
+                "jsonls",
             },
             handlers = {
                 function(server_name)
