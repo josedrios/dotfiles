@@ -14,3 +14,6 @@ vim.keymap.set("n", "<leader>h", "<C-w>h", { desc = "Go left window" })
 vim.keymap.set("n", "<leader>l", "<C-w>l", { desc = "Go right window" })
 vim.keymap.set("n", "<leader>j", "<C-w>j", { desc = "Go down window" })
 vim.keymap.set("n", "<leader>k", "<C-w>k", { desc = "Go up window" })
+
+-- Show Diagnostic
+vim.keymap.set("n", "<leader>d", vim.diagnostic.open_float, { desc = "[d]iagnostics under cursod" })
